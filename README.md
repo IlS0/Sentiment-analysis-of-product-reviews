@@ -6,7 +6,7 @@ Sentiment analysis is the use of natural language processing, text analysis, com
 
 This is a statistical measure of the importance of a word for a document in the collection, adjusted for the fact that some words are more frequently in general. The weight of a word is proportional to the frequency of use of that word in a document and inversely proportional to the frequency of use of the word in all documents in the collection.
 
-The TF-IDF is the product of two statistics: term frequency and inverse document frequency: $$ tf\text{-}idf(t,d,D)= tf(t,d) \times idf(t,D) $$.
+The TF-IDF is the product of two statistics: term frequency and inverse document frequency: $ tf\text{-}idf(t,d,D)= tf(t,d) \times idf(t,D) $.
 
 A high weight in TF-IDF is reached by a high term frequency (in the given document) and a low document frequency of the term in the whole collection of documents.
 
